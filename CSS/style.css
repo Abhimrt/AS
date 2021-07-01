@@ -1,124 +1,29 @@
 /* General CSS*/
 
 body {
-    padding-top: 100px;
     font-family: arial, sans-serif;
     color: #333;
 }
 
 
-/*
-h1 {
-    font-size: 36px;
+/* navigation bar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
 }
 
-h2 {
-    font-size: 30px;
-    font-weight: lighter;
+#search-navbar {
+    box-shadow: 0px 4px 4px 3px rgb(56, 83, 83) !important;
 }
 
-h1,
-h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: noraml;
+#search-navbar-btn {
+    box-shadow: 0px 4px 4px 3px rgb(56, 83, 83) !important;
+    background-color: white;
 }
 
-p {
-    font-size: 14px; 
-    line-height: 21px;
-    margin-bottom: 20px;
+#intro {
+    height: 50px;
 }
-
-.main-container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.single-row {
-    width: 100%;
-}
-
-
-/*header section-------
-
-.col-lft {
-    width: 60%;
-}
-
-.col-lft img {
-    width: 95%;
-    border-radius: 20px;
-    padding-bottom: 5px;
-}
-
-.col-rig {
-    width: 35%;
-}
-
-.col-lft,
-.col-rig {
-    float: left;
-    padding: 0 15px;
-}
-
-.btn {
-    margin: 0 34%;
-    padding: 10px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    border-radius: 6px;
-    color: #fff;
-    background-color: #337ab7;
-    text-decoration: none;
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-.btn:hover {
-    margin: 0 33.5%;
-    padding: 10px 16px;
-    border: 1px solid rgba(236, 11, 236, 0.4);
-}
-
-.clear-fix {
-    clear: both;
-}
-
-hr {
-    margin: 20px 0;
-    border: 0;
-    border-top: 5px solid #eee;
-}
-
-.col-1,
-.col-2,
-.col-3 {
-    width: 30%;
-    float: left;
-    padding: 0 15px;
-}
-
-.btn-info {
-    display: inline-block;
-    padding: 6px 12px;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 21px;
-    cursor: pointer;
-    border: 1px solid #CECEEE;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #333;
-}
-
-.btn-info:hover {
-    color: #333;
-    background: #e6e6;
-    border-color: #3f1313;
-    padding: 7px 13px;
-}
-*/
 
 #footer-p {
     padding: 30px 0;
