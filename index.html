@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 
-    <title>Documents</title>
+    <title>Documents
+    </title>
+    <!-- image icon -->
+    <link rel="icon" href="images/logo1.png" type="image/icon">
 </head>
 
 <body>
@@ -25,24 +28,24 @@
     <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(12, 128, 128);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="AS" style="width: 45px;"></a>
+            <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="AS" style="width: 45px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active ps-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active ps-5  navbar-borders" aria-current="page" href="#"> <i class="bi bi-house-fill"></i> Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle ps-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Semister
-                </a>
+                            <i class="bi bi-journal-text"></i> Semister
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">One</a></li>
-                            <li><a class="dropdown-item" href="#">Two</a></li>
-                            <li><a class="dropdown-item" href="#">Three</a></li>
+                            <li><a class="dropdown-item" href="sem2.html">Two</a></li>
+                            <li><a class="dropdown-item" href="">Three</a></li>
                             <li><a class="dropdown-item" href="#">Four</a></li>
                             <li><a class="dropdown-item" href="#">Five</a></li>
                             <li><a class="dropdown-item" href="#">Six </a></li>
@@ -56,10 +59,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link ps-5" href="#">About us</a>
+                        <a class="nav-link ps-5" href="#card-shadow"> <i class="bi bi-file-earmark-person"></i> About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ps-5" href="#">Contact us</a>
+                        <a class="nav-link ps-5" href="#"> <i class="bi bi-envelope"></i> Contact us</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -70,16 +73,46 @@
         </div>
     </nav>
 
-<div class="container-fluid ">
-    <div class="row ">
-        <div class="column-fluid ">
-            <div class="col-6 "></div>
-            <div class="col-4 ">
-                <h1></h1>
+<div class="container-fluid pb-2 ">
+    <div class="row bg-warning row-intro " >
+        
+            <div class="col-md-6 text-center ">
+                <h1 class="start-quote ">Need to STUDY HARD..</h1>
+                <p class="pt-5 ">This website helps you to make your B.Tech easy. <br>
+                   Here you will get notes, MCQ's, Question bank. <br>
+                    By which you will save your time.</p>
+            </div>
+            <div class="col-md-6 align-items-end justify-content-end mt-4 hand-img " >
+               <img src="images/mcq.jpg " alt=" " class="img-fluid ms-0 pb-4 "  >
             </div>
         </div>
+  
+</div>
+
+<!-- content -->
+<div class="container ">
+    <div class="row ">
+
     </div>
 </div>
+
+
+<!-- card -->
+<div class="container-fluid " id="card-shadow ">
+    <div class="row justify-content-center " style="background-color: wheat; ">
+    <div class="card col-4 mt-2 pt-2 mb-2 "  style="width: 18rem; ">
+    <img src="images/as.png " class="card-img-top " alt="... ">
+    <div class="card-body ">
+      <h5 class="card-title ">Abhishek Singhal</h5>
+      <p class="card-text "></p>Hi... <br>
+                                I'm a student of an Enginnering collage <br>
+                                Course -B.tech  Branch -CS&IT </p>
+      <a href="# " class="btn btn-primary " style="margin:0 25%; ">Take a Tour</a>
+    </div>
+  </div>
+</div>
+</div>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
