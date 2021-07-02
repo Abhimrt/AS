@@ -8,6 +8,10 @@ body {
 
 /* navigation bar */
 
+.navbar-borders {
+    color: rgb(12, 243, 89) !important;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
 }
@@ -21,8 +25,21 @@ body {
     background-color: white;
 }
 
-#intro {
-    height: 50px;
+.start-quote {
+    padding-top: 200px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .hand-img img {
+        visibility: hidden !important;
+    }
+}
+
+
+/* card */
+
+.table-sem {
+    padding: 5px !important;
 }
 
 #footer-p {
